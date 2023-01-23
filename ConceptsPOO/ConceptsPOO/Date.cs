@@ -9,11 +9,11 @@ namespace ConceptsPOO
     public class Date
     {
 
-        private int _year;
+    /*    private int _year;
         private int _month;
         private int _day;
 
-        public Date (int year, int month, int day)
+      /*  public Date (int year, int month, int day)
         {
             _year = year;
             _month = Checkmonth(month); 
@@ -27,12 +27,12 @@ namespace ConceptsPOO
                 return day;
             }
 
-            throw new NotImplementedException();
-        }
+           // throw new NotImplementedException();
+       }
 
         private bool IsleapYear(int year)
         {
-            return year % 400 == 0 ¦¦ year % 4 == 0 && year % 100 != 0;
+            return year % 400 == 0; // ¦¦ year % 4 == 0 && year % 100 != 0;
             throw new NotImplementedException();
         }
 
@@ -50,6 +50,6 @@ namespace ConceptsPOO
         public override string ToString()
         {
             return $"{_year:00}/{_month:00}/{_day:00}"; //Interpolación de Scring es la que hacemos acá
-        }
+         }*/
     }
 }
